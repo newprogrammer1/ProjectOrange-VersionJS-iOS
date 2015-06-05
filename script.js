@@ -1,8 +1,15 @@
 /*
 */
 //Keys Array
-var keys = []
+
 //Make KeysIs(Pressed)(Released)
-var keyIsPressed = function(){
-  keys[keyCode] = true;
-};
+
+
+var currentScene;
+
+
+var entranceScreen = function(){
+  fill(255, 102, 0)
+  currentScene = 1;
+}
+mouseClicked = function
