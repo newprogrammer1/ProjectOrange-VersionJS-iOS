@@ -2,7 +2,7 @@
 
 
 # ProjectOrange
-A Project for our game to publish on the Apps Store
+A Project for our game to publish on the App Store
 
 [![forthebadge](http://forthebadge.com/badges/built-with-love.svg)](http://forthebadge.com)
 
@@ -13,5 +13,30 @@ A Project for our game to publish on the Apps Store
 | Peter Soboyejo | Development & Design |         [dzt](http://github.com/dzt)         | [@pxt3r](http://twitter.com/pxt3r) |
 |   Brendon Ho   | Development & Owner  | [brendonho01](http://github.com/brendonho01) |                 getting one soon 
 | Prafull Sharma |      Helper Dev      | [prafull2001](http://github.com/prafull2001) |           N/A
+|
+
+#Project Summary
+
+We are making a game to publish on the iOS App Store. The Developers are doing a great job so far
+
+#ChangeLog
+
+-Made Repository
+
+-Made the JS file
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
 
 
