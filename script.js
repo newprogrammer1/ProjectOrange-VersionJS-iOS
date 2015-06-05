@@ -1,7 +1,8 @@
 /*
 */
-//Keys Array
-
+//Buttons Array
+var buttons = []
+var author = string:"Brendon Ho"
 //Make KeysIs(Pressed)(Released)
 
 
