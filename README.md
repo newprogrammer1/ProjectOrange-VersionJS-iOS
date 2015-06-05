@@ -8,6 +8,10 @@ A Project for our game to publish on the App Store
 
 [![forthebadge](http://forthebadge.com/badges/built-with-love.svg)](http://forthebadge.com)
 
+Also
+
+[1[forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http;//forthebadge.com)
+
 #Team & Contributors
 
 |   Contributor  |     Contribution     |                    GitHub                    |               Twitter              |
