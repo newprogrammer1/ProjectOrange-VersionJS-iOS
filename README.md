@@ -3,6 +3,7 @@
 
 # ProjectOrange
 A Project for our game to publish on the App Store
+
 [![orange](http://vexitygames.github.io/orange)](http://vexitygames.github.io)
 
 [![forthebadge](http://forthebadge.com/badges/built-with-love.svg)](http://forthebadge.com)
@@ -26,9 +27,9 @@ We are making a game to publish on the iOS App Store. The Developers are current
 
 -Made the JS file
 
--
+-Edited README.md
 
--
+-Started Coding!!!!
 
 -
 
