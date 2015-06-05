@@ -6,7 +6,7 @@ A Project for our game to publish on the Apps Store
 
 [![forthebadge](http://forthebadge.com/badges/built-with-love.svg)](http://forthebadge.com)
 
-Team
+#Team & Contributors
 
 |   Contributor  |     Contribution     |                    GitHub                    |               Twitter              |
 |:--------------:|:--------------------:|:--------------------------------------------:|:----------------------------------:|
