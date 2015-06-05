@@ -1,8 +1,9 @@
 /*
 */
 //Buttons Array
-var buttons = []
-var author = string:"Brendon Ho"
+var buttons = [];
+var maker = string:"Brendon Ho";
+var helper = string: "Prafull Sharma"
 //Make KeysIs(Pressed)(Released)
 
 
