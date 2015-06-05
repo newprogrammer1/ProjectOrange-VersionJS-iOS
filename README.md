@@ -10,7 +10,7 @@ A Project for our game to publish on the App Store
 
 Also
 
-[1[forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http;//forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http;//forthebadge.com)
 
 #Team & Contributors
 
