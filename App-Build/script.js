@@ -10,6 +10,13 @@ var upButton = function(){
   rect(358,379,15,15);
 };
 
+var levelOne = function(){
+  makePlatforms();
+  makePlatforms();
+  makeOrangePlatforms();
+  
+};
+
 //player Variables
 var gravity = 0.4;
 var positionX = 100;
@@ -60,11 +67,11 @@ var makePlatforms = function(x,y,width,height,color){
     width: width, height: height,
     color: color
   });
-}
+};
 //draws the platforms
 var drawPlatforms = function(){
   for(var each in platforms){
-    fill(platforms[each].color)
+    fill(platforms[each].color);
     rect(platforms[each].x, platforms[each].y, platforms[each].width, platforms[each].height);
   }
 };
@@ -77,13 +84,15 @@ var makeOrangePlatforms = function(x,y,width,height,color){
     width: width, height: height,
     color: color
   });
-}
+};
+
+
 var drawOrangePlatforms = function(){
   for(var each in platforms){
     fill(orangePlatforms[each].color);
     rect(orangePlatforms[each].x, orangePlatforms[each].y, orangePlatforms[each].width, orangePlatforms[each].height);
   }
-}
+};
 //Allows Player to move with controls
 var movePlayer = function(){
   if(mousePressed && mouseX <=, mouseX >=, mouseY <=, mouseY >=){velocityX = 3;}
@@ -102,7 +111,7 @@ positionY += velocityY;
 
 jumping = true;
 collideWith(0, velocityY, platforms);
-}
+};
 
 var player = function(){
   noStroke();
@@ -113,7 +122,7 @@ var deathScreen = function(){
   velocityX = 0;
   velocityY = 0;
   rect()
-}
+};
 var death = function(){
   if(collideWith = orangePlatforms)
-}
+};
