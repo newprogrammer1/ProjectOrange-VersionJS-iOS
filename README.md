@@ -45,4 +45,42 @@ We are making a game to publish on the iOS App Store. The Developers are current
 
 -
 
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+#How To Help
+
+-Give us some suggestions at: 
+
 
