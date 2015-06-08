@@ -10,16 +10,10 @@ var upButton = function(){
   rect(358,379,15,15);
 };
 
-var levelOne = function(){
-  makePlatforms();
-  makePlatforms();
-  makeOrangePlatforms();
-  
-};
 
 //player Variables
 var gravity = 0.4;
-var positionX = 100;
+var positionX = 200;
 var positionY = 0;
 var velocityX = 0;
 var velocityY = 0;
@@ -46,7 +40,7 @@ var collideWith = function(xv, yv, platforms) {
             velocityY = 0;
             jumping = true;
             positionY = p.y+p.height;
-        }
+        
         if(xv>0) { // RIGHT
             velocityX = 0;
             positionX = p.x-ballSize;
