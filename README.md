@@ -37,9 +37,9 @@ We are making a game to publish on the iOS App Store. The Developers are current
 
 -Added [prafull2001](http://github.com/prafull2001/)
 
--
+-Made more code!
 
--
+-made orange platforms so now there is a purpose in the game
 
 -
 
