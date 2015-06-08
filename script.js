@@ -19,6 +19,38 @@ var velocityY = 0;
 var maxFallSpeed = 8:
 var ballSize = 18;
 var jumping = true;
+
+//
+var collideWith = function(xv, yv, platforms) {
+    for (var each in platforms) {
+        var p = platforms[each];
+        // Checks for Collision
+        if( positionY + ballSize > p.y &&
+            positionY < p.y + p.height &&
+            positionX + ballSize > p.x &&
+            positionX < p.x + p.width)
+        { // FROM
+        if(yv>0) { // BOTTOM
+            velocityY = 0;
+            jumping = false;
+            positionY = p.y-ballSize;
+        }
+        if(yv<0) { // TOP
+            velocityY = 0;
+            jumping = true;
+            positionY = p.y+p.height;
+        }
+        if(xv>0) { // RIGHT
+            velocityX = 0;
+            positionX = p.x-ballSize;
+        }
+        if(xv<0) { // LEFT
+            velocityX = 0;
+            positionX = p.x+p.width;
+        }
+    }
+    }
+};
 //platform array
 var platforms = [];
 //creates the platforms functions
@@ -36,8 +68,22 @@ var drawPlatforms = function(){
     rect(platforms[each].x, platforms[each].y, platforms[each].width, platforms[each].height);
   }
 };
-
-
+//orangePlatforms empty array
+var orangePlatforms = [];
+//makes orangePlatforms
+var makeOrangePlatforms = function(x,y,width,height,color){
+  orangePlatforms.push({
+    x: x, y: y,
+    width: width, height: height,
+    color: color
+  });
+}
+var drawOrangePlatforms = function(){
+  for(var each in platforms){
+    fill(orangePlatforms[each].color);
+    rect(orangePlatforms[each].x, orangePlatforms[each].y, orangePlatforms[each].width, orangePlatforms[each].height);
+  }
+}
 //Allows Player to move with controls
 var movePlayer = function(){
   if(mousePressed && mouseX <=, mouseX >=, mouseY <=, mouseY >=){velocityX = 3;}
@@ -62,3 +108,12 @@ var player = function(){
   noStroke();
   fill()
 };
+var deathScreen = function(){
+  jumping = false;
+  velocityX = 0;
+  velocityY = 0;
+  rect()
+}
+var death = function(){
+  if(collideWith = orangePlatforms)
+}
