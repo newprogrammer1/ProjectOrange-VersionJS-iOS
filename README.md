@@ -41,7 +41,7 @@ We are making a game to publish on the iOS App Store. The Developers are current
 
 -made orange platforms so now there is a purpose in the game
 
--
+-Should I Make Android Too?
 
 -
 
